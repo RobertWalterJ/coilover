@@ -1,0 +1,18 @@
+# Screenshots taken while testing. 164 MB of them, every one reproducible by
+# playing the game, and none of them a source of anything.
+shots/
+
+# Point-in-time copies of src/game.html taken before each patch script ran.
+# Thirty-odd near-identical 300 KB files that git cannot usefully compress
+# against one another. Git history does this job from here on.
+src/game.pre-*.html
+
+# Scratch: the script block pulled out of game.html to run `node --check` over.
+src/_check.js
+
+# Editor and OS
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

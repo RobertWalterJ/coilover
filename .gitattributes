@@ -1,0 +1,7 @@
+# build.py writes LF, so the repository stores LF and Windows checkouts get
+# whatever they like. Without this, every generated file shows as modified the
+# moment it is rebuilt.
+* text=auto eol=lf
+
+*.png binary
+*.bat text eol=crlf
